@@ -1,5 +1,29 @@
+body {
+    background: white;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    background-color: #AAC5BD;
+    font-size: 0.80em;
+  }
+  
+  .small {
+    background-color: #E0AC00;
+    
+    
+  }
+  
+  .medium {
+    background-color: #D2664B;
+  }
+  
+  .large {
+    background-color: #08725F;
+    flex : 2;
+  }
+  
+
 .small img { width: 4em; }
 
 .medium img { width: 5em; }
 
 .large img { width: 7em; }
+
