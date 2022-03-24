@@ -28,7 +28,7 @@ body {
 .large img { width: 7em; }
 
 .specials div {
-  float: inherit;
+  float: left;
   /* border: 1px solid lightgrey; */
   margin: 0em;
   padding: 1em;
@@ -36,7 +36,7 @@ body {
 }
 #first-col {width: 180px; float: left;}
 #midlle-col {width: 180px; float: left;}
-#last-col {width: 180px; float: left;}
+#last-col {width: 180px; float: right;}
 
 .footer {
   display: flex;
