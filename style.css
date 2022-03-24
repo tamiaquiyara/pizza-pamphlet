@@ -1,5 +1,5 @@
 body {
-    background: white;
+    background: transparent;
     font-family: Georgia, 'Times New Roman', Times, serif;
     background-color: #AAC5BD;
     font-size: 0.80em;
@@ -27,3 +27,35 @@ body {
 
 .large img { width: 7em; }
 
+.specials div {
+  float: left;
+  /* border: 1px solid lightgrey; */
+  margin: 0em;
+  padding: 1em;
+  
+}
+
+.footer {
+  display: flex;
+}
+
+.footer div {
+  flex: 1;
+/*   border: 1px solid;
+   */  margin-top: 1em;
+  padding: 1em;
+  background-color: #F18C7E;
+}
+
+
+@media (min-width: 768px){
+
+  .specials {
+    display: flex;
+  }
+  
+  body {
+    font-size: 1em;
+  }
+  
+}
